@@ -1,0 +1,414 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2020-11-30 17:32:43</RunStartTime>
+        <Timezone>GMT+0000 (Coordinated Universal Time)</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>UFT Developer Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2020-11-30 17:32:43</StartTime>
+            <Result>Failed</Result>
+            <Links/>
+            <Duration><![CDATA[00:00:25.573]]></Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo><![CDATA[Linux 3.10.0-957.12.1.el7.x86_64]]></OSInfo>
+                <HostName>nimbusserver</HostName>
+                <NumberOfCores>4</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>48625</TotalMemory>
+                <Locale>POSIX</Locale>
+                <Timezone><![CDATA[GMT+0000 (Coordinated Universal Time)]]></Timezone>
+                <User>demo</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>UFT Developer</ToolName>
+            <ToolVersion><![CDATA[15.0.1]]></ToolVersion>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name><![CDATA[com.company]]></Name>
+                <Description><![CDATA[Version: N/A]]></Description>
+                <StartTime>2020-11-30 17:32:43</StartTime>
+                <Result>Failed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:25.532]]></Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name><![CDATA[com.company.UFTDeveloperTest]]></Name>
+                    <Description/>
+                    <StartTime>2020-11-30 17:32:43</StartTime>
+                    <Result>Failed</Result>
+                    <Links/>
+                    <Duration><![CDATA[00:00:25.532]]></Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>test</Name>
+                        <Description/>
+                        <StartTime>2020-11-30 17:32:43</StartTime>
+                        <Result>Failed</Result>
+                        <ErrorText><![CDATA[<pre>com.hp.lft.sdk.GeneralReplayException: Browser not valid anymore
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory$11.create(ReplayExceptionFactory.java:95)
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:289)
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:22)
+	at com.hp.lft.sdk.internal.TestObjectExecuterBehaviorBase$ReplayErrorHandler.onError(TestObjectExecuterBehaviorBase.java:65)
+	at com.hp.lft.sdk.internal.CommunicationClientImpl.handleError(CommunicationClientImpl.java:222)
+	at com.hp.lft.sdk.internal.CommunicationClientImpl.send(CommunicationClientImpl.java:96)
+	at com.hp.lft.sdk.internal.TestObjectExecuterBehavior.executeMethod(TestObjectExecuter.java:33)
+	at com.hp.lft.sdk.internal.TestObjectBase.executeMethod(TestObjectBase.java:124)
+	at com.hp.lft.sdk.internal.ClickBehavior.click(ClickBehavior.java:37)
+	at com.hp.lft.sdk.internal.ClickBehavior.click(ClickBehavior.java:32)
+	at com.hp.lft.sdk.internal.web.WebElementImpl$1.invoke(WebElementImpl.java:29)
+	at com.hp.lft.sdk.internal.TestObjectOperationWrapper.executeWithEvents(TestObjectOperationWrapper.java:81)
+	at com.hp.lft.sdk.internal.TestObjectOperationWrapper.executeWithEvents(TestObjectOperationWrapper.java:102)
+	at com.hp.lft.sdk.internal.web.WebElementImpl.click(WebElementImpl.java:33)
+	at com.company.UFTDeveloperTest.test(UFTDeveloperTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+</pre>]]></ErrorText>
+                        <Links/>
+                        <Duration><![CDATA[00:00:25.521]]></Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Browser.launch]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>CHROME</td></tr></table><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><p><div class=data-label><hr><b>Browser Information</b></div> </p><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>type</td><td class='ex-value'>Chrome</td></tr><tr><td class='ex-name'>version</td><td class='ex-value'>84.0</td></tr><tr><td class='ex-name'>max concurrent tests</td><td class='ex-value'>9.007199254740991E15</td></tr><tr><td class='ex-name'>osVersion</td><td class='ex-value'>3.10.0-957.12.1.el7.x86_64</td></tr><tr><td class='ex-name'>osType</td><td class='ex-value'>Linux</td></tr><tr><td class='ex-name'>name</td><td class='ex-value'>nimbusserver</td></tr><tr><td class='ex-name'>id</td><td class='ex-value'>nimbusserver</td></tr></table>]]></Description>
+                            <StartTime>2020-11-30 17:32:43</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.000]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path/>
+                                        <Operation>launch</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>CHROME</td></tr></table><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><p><div class=data-label><hr><b>Browser Information</b></div> </p><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>type</td><td class='ex-value'>Chrome</td></tr><tr><td class='ex-name'>version</td><td class='ex-value'>84.0</td></tr><tr><td class='ex-name'>max concurrent tests</td><td class='ex-value'>9.007199254740991E15</td></tr><tr><td class='ex-name'>osVersion</td><td class='ex-value'>3.10.0-957.12.1.el7.x86_64</td></tr><tr><td class='ex-name'>osType</td><td class='ex-value'>Linux</td></tr><tr><td class='ex-name'>name</td><td class='ex-value'>nimbusserver</td></tr><tr><td class='ex-name'>id</td><td class='ex-value'>nimbusserver</td></tr></table>]]></OperationData>
+                                        <Properties/>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Browser</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                        <FlowTreeNodeCaption><![CDATA[Browser.<span class='emphasis'>launch("Chrome")</span>]]></FlowTreeNodeCaption>
+                                        <FlowTreeNodeTooltip><![CDATA[Browser.launch("Chrome")]]></FlowTreeNodeTooltip>
+                                    </CustomUIElements>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[about:blank.navigate]]></Name>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>http://www.advantageonlineshopping.com/</td></tr></table>]]></Description>
+                            <StartTime>2020-11-30 17:32:45</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.055]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[about:blank]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>navigate</Operation>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>http://www.advantageonlineshopping.com/</td></tr></table>]]></OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[type]]></Name>
+                                                <Value><![CDATA[Chrome]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[version]]></Name>
+                                                <Value><![CDATA[84.0]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[max concurrent tests]]></Name>
+                                                <Value><![CDATA[9.007199254740991E15]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[osVersion]]></Name>
+                                                <Value><![CDATA[3.10.0-957.12.1.el7.x86_64]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[osType]]></Name>
+                                                <Value><![CDATA[Linux]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[name]]></Name>
+                                                <Value><![CDATA[nimbusserver]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[id]]></Name>
+                                                <Value><![CDATA[nimbusserver]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Browser</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[about:blank]]></Name>
+                                                    <IconKey>Browser</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[TabletsCategory.click]]></Name>
+                            <Description/>
+                            <StartTime>2020-11-30 17:32:45</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:02.971]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[Advantage Shopping]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Page</Type>
+                                                <Name><![CDATA[Advantage Shopping]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Link</Type>
+                                                <Name><![CDATA[TabletsCategory]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[tagName]]></Name>
+                                                <Value><![CDATA[DIV]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[innerText]]></Name>
+                                                <Value><![CDATA[TABLETS Shop Now ]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Link</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[Advantage Shopping]]></Name>
+                                                    <IconKey>Browser</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Page</Type>
+                                                    <Name><![CDATA[Advantage Shopping]]></Name>
+                                                    <IconKey>Page</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Link</Type>
+                                                    <Name><![CDATA[TabletsCategory]]></Name>
+                                                    <IconKey>Link</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[WebElement.click]]></Name>
+                            <Description/>
+                            <StartTime>2020-11-30 17:32:48</StartTime>
+                            <Result>Failed</Result>
+                            <ErrorText><![CDATA[<b>Operation 'WebElement.click' failed:</b><BR/><pre>com.hp.lft.sdk.GeneralReplayException: Browser not valid anymore
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory$11.create(ReplayExceptionFactory.java:95)
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:289)
+	at com.hp.lft.sdk.internal.ReplayExceptionFactory.createOrDefault(ReplayExceptionFactory.java:22)
+	at com.hp.lft.sdk.internal.TestObjectExecuterBehaviorBase$ReplayErrorHandler.onError(TestObjectExecuterBehaviorBase.java:65)
+	at com.hp.lft.sdk.internal.CommunicationClientImpl.handleError(CommunicationClientImpl.java:222)
+	at com.hp.lft.sdk.internal.CommunicationClientImpl.send(CommunicationClientImpl.java:96)
+	at com.hp.lft.sdk.internal.TestObjectExecuterBehavior.executeMethod(TestObjectExecuter.java:33)
+	at com.hp.lft.sdk.internal.TestObjectBase.executeMethod(TestObjectBase.java:124)
+	at com.hp.lft.sdk.internal.ClickBehavior.click(ClickBehavior.java:37)
+	at com.hp.lft.sdk.internal.ClickBehavior.click(ClickBehavior.java:32)
+	at com.hp.lft.sdk.internal.web.WebElementImpl$1.invoke(WebElementImpl.java:29)
+	at com.hp.lft.sdk.internal.TestObjectOperationWrapper.executeWithEvents(TestObjectOperationWrapper.java:81)
+	at com.hp.lft.sdk.internal.TestObjectOperationWrapper.executeWithEvents(TestObjectOperationWrapper.java:102)
+	at com.hp.lft.sdk.internal.web.WebElementImpl.click(WebElementImpl.java:33)
+	at com.company.UFTDeveloperTest.test(UFTDeveloperTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+</pre>]]></ErrorText>
+                            <Links/>
+                            <Duration><![CDATA[00:00:20.223]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Web.Browser</Type>
+                                                <Name><![CDATA[Advantage Shopping]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.Page</Type>
+                                                <Name><![CDATA[Advantage Shopping]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Web.WebElement</Type>
+                                                <Name><![CDATA[WebElement]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[innerText]]></Name>
+                                                <Value><![CDATA[Bose Soundlink Bluetooth Speaker III]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>WebElement</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Web.Browser</Type>
+                                                    <Name><![CDATA[Advantage Shopping]]></Name>
+                                                    <IconKey>Browser</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.Page</Type>
+                                                    <Name><![CDATA[Advantage Shopping]]></Name>
+                                                    <IconKey>Page</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Web.WebElement</Type>
+                                                    <Name><![CDATA[WebElement]]></Name>
+                                                    <IconKey>WebElement</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>

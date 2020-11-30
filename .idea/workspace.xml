@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AliProjectConfiguration">
+    <location />
+    <domain />
+    <project />
+    <username />
+    <password />
+    <store-password>true</store-password>
+    <stored />
+    <status-transition />
+    <spell-checker>true</spell-checker>
+    <dev-motive-annotation>true</dev-motive-annotation>
+    <entity />
+    <CommentHistory>
+      <option name="comments">
+        <list />
+      </option>
+    </CommentHistory>
+    <details controls="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5bc9e89d-77e8-4220-96ca-9342f278a14f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1l1EKox9QbYPBG9PWpZJZMPh8NZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="UFTDeveloperTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="uft-dev-walker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.UFTDeveloperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.UFTDeveloperTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bc9e89d-77e8-4220-96ca-9342f278a14f" name="Default Changelist" comment="" />
+      <created>1606756138556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606756138556</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TaskboardConfiguration" showUserStories="true" showDefects="true" showBlocked="true" showStatuses="&lt;all&gt;" assignTask="false" deactivateItem="false" activateItem="false" />
+  <component name="WindowStateProjectService">
+    <state width="1872" height="263" key="GridCell.Tab.0.bottom" timestamp="1606757561093">
+      <screen x="0" y="28" width="1920" height="1018" />
+    </state>
+    <state width="1872" height="263" key="GridCell.Tab.0.bottom/0.28.1920.1018@0.28.1920.1018" timestamp="1606757561093" />
+    <state width="1872" height="263" key="GridCell.Tab.0.center" timestamp="1606757561092">
+      <screen x="0" y="28" width="1920" height="1018" />
+    </state>
+    <state width="1872" height="263" key="GridCell.Tab.0.center/0.28.1920.1018@0.28.1920.1018" timestamp="1606757561092" />
+    <state width="1872" height="263" key="GridCell.Tab.0.left" timestamp="1606757561092">
+      <screen x="0" y="28" width="1920" height="1018" />
+    </state>
+    <state width="1872" height="263" key="GridCell.Tab.0.left/0.28.1920.1018@0.28.1920.1018" timestamp="1606757561092" />
+    <state width="1872" height="263" key="GridCell.Tab.0.right" timestamp="1606757561093">
+      <screen x="0" y="28" width="1920" height="1018" />
+    </state>
+    <state width="1872" height="263" key="GridCell.Tab.0.right/0.28.1920.1018@0.28.1920.1018" timestamp="1606757561093" />
+  </component>
+</project>
